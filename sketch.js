@@ -4,6 +4,7 @@ const Bodies = Matter.Bodies;
 
 var engine, world;
 var box1, pig1;
+var Pig5;
 var backgroundImg,platform;
 
 function preload() {
@@ -28,6 +29,7 @@ function setup(){
     box4 = new Box(920,240,70,70);
     pig3 = new Pig(810, 220);
 
+    Pig5 = new Pig(200,200);
     log3 =  new Log(810,180,300, PI/2);
 
     box5 = new Box(810,160,70,70);
